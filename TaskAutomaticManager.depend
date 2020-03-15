@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\serge\documents\dev\taskautomaticmanager\main.cpp
+	<iostream>
+
+1584218545 source:c:\users\serge\documents\dev\taskautomaticmanager\src\csystemargument.cpp
+	"csystemargument.h"
+
+1584258910 c:\users\serge\documents\dev\taskautomaticmanager\include\csystemargument.h
+	<vector>
+	<string>
+
