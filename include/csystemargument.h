@@ -3,9 +3,12 @@
 
 #include <vector>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string>
 #include <cstdio>
 #include <iostream>
+#include <unistd.h>
+
 
 using namespace std;
 
@@ -58,6 +61,7 @@ class cSystemArgument
         string m_OutputStream; //!< Member variable "m_OutputStream"
         string m_ErrorStream; //!< Member variable "m_ErrorStream"
         string m_CommandName; //!< Member variable "m_CommandName"
+        char * m_pid;
         vector<string> m_Arguments; //!< Member variable "m_Arguments"
 };
 

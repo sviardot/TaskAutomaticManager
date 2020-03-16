@@ -13,16 +13,18 @@
 	<iostream>
 	"csystemargument.h"
 
-1584377109 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
+1584391164 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
 	"csystemargument.h"
 	"EmptyCommandExcept.h"
 
-1584377471 d:\dev\taskautomaticmanager\include\csystemargument.h
+1584390585 d:\dev\taskautomaticmanager\include\csystemargument.h
 	<vector>
 	<stdio.h>
+	<stdlib.h>
 	<string>
 	<cstdio>
 	<iostream>
+	<unistd.h>
 
 1584335172 source:d:\dev\taskautomaticmanager\src\emptycommandexcept.cpp
 	"EmptyCommandExcept.h"

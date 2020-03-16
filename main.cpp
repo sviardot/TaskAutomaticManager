@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
     cout << "Hello world!" << endl;
-    cSystemArgument * CallSystem = new cSystemArgument("d:\\temp\\output.txt","d:\\temp\\err.txt","dir /s d:\\temp\\");
+    cSystemArgument * CallSystem = new cSystemArgument("d:\\temp\\output","d:\\temp\\err","dir /s d:\\temp\\");
     return 0;
 }
