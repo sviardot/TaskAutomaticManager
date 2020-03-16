@@ -27,7 +27,10 @@ cSystemArgument::cSystemArgument(string OutputStream,string ErrorStream,string C
     }
     else
         throw EmptyCommandExcept();
-
+    if (OutputStream.length()>0)
+        freopen(OutputStream.c_str(),"w+",stdout);
+        fprintf(stdout,"%s","yes");
+        fclose(stdout);
 
 }
 

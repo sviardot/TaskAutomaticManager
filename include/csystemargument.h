@@ -2,7 +2,10 @@
 #define CSYSTEMARGUMENT_H
 
 #include <vector>
+#include <stdio.h>
 #include <string>
+#include <cstdio>
+#include <iostream>
 
 using namespace std;
 

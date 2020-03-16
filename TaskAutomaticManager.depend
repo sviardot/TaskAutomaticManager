@@ -9,16 +9,20 @@
 	<vector>
 	<string>
 
-1514140574 source:d:\dev\taskautomaticmanager\main.cpp
+1584375763 source:d:\dev\taskautomaticmanager\main.cpp
 	<iostream>
+	"csystemargument.h"
 
-1584335356 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
+1584377109 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
 	"csystemargument.h"
 	"EmptyCommandExcept.h"
 
-1584289896 d:\dev\taskautomaticmanager\include\csystemargument.h
+1584377471 d:\dev\taskautomaticmanager\include\csystemargument.h
 	<vector>
+	<stdio.h>
 	<string>
+	<cstdio>
+	<iostream>
 
 1584335172 source:d:\dev\taskautomaticmanager\src\emptycommandexcept.cpp
 	"EmptyCommandExcept.h"
