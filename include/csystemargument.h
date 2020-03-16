@@ -11,6 +11,7 @@ class cSystemArgument
     public:
         /** Default constructor */
         cSystemArgument();
+        cSystemArgument(string OutputStream,string ErrorStream,string CommandName);
         /** Default destructor */
         virtual ~cSystemArgument();
         /** Copy constructor

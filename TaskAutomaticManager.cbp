@@ -34,8 +34,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/EmptyCommandExcept.h" />
 		<Unit filename="include/csystemargument.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/EmptyCommandExcept.cpp" />
 		<Unit filename="src/csystemargument.cpp" />
 		<Extensions>
 			<code_completion />
