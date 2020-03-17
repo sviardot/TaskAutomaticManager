@@ -37,9 +37,17 @@
 		<Unit filename="include/EmptyCommandExcept.h" />
 		<Unit filename="include/GlobalText.h" />
 		<Unit filename="include/csystemargument.h" />
+		<Unit filename="include/sqlite3.h" />
+		<Unit filename="include/sqlite3ext.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/EmptyCommandExcept.cpp" />
 		<Unit filename="src/csystemargument.cpp" />
+		<Unit filename="src/shell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
