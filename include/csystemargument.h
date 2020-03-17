@@ -54,6 +54,7 @@ class cSystemArgument
          * \param val New value to set
          */
         void SetCommandName(string val) { m_CommandName = val; }
+        void Run();
 
     protected:
 

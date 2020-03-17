@@ -9,15 +9,15 @@
 	<vector>
 	<string>
 
-1584375763 source:d:\dev\taskautomaticmanager\main.cpp
+1584430196 source:d:\dev\taskautomaticmanager\main.cpp
 	<iostream>
 	"csystemargument.h"
 
-1584391164 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
+1584431159 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
 	"csystemargument.h"
 	"EmptyCommandExcept.h"
 
-1584390585 d:\dev\taskautomaticmanager\include\csystemargument.h
+1584430028 d:\dev\taskautomaticmanager\include\csystemargument.h
 	<vector>
 	<stdio.h>
 	<stdlib.h>
@@ -26,10 +26,13 @@
 	<iostream>
 	<unistd.h>
 
-1584335172 source:d:\dev\taskautomaticmanager\src\emptycommandexcept.cpp
+1584428308 source:d:\dev\taskautomaticmanager\src\emptycommandexcept.cpp
 	"EmptyCommandExcept.h"
 
-1584334845 d:\dev\taskautomaticmanager\include\emptycommandexcept.h
+1584428348 d:\dev\taskautomaticmanager\include\emptycommandexcept.h
 	<exception>
 	<string>
+	"GlobalText.h"
+
+1584428308 d:\dev\taskautomaticmanager\include\globaltext.h
 

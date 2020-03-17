@@ -10,5 +10,10 @@ return m_error_number;
 }
 
 string EmptyCommandExcept::getErrorMessage() const throw() {
-return "nom de la commande inconnue ou vide";
+return IDT_EmptyCommandMsg;
 }
+
+const char * EmptyCommandExcept::what () const throw ()
+    {
+    	return IDT_EmptyCommandMsg;
+    }

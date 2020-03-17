@@ -38,6 +38,22 @@ cSystemArgument::cSystemArgument(string OutputStream,string ErrorStream,string C
 
 }
 
+void cSystemArgument::Run()
+{
+    FILE * stream;
+    const int max_buffer = 256;
+    char buffer[max_buffer];
+
+    stream = popen(m_CommandName.c_str(), "r");
+    if (stream) {
+        while (!feof(stream))
+        if (fgets(buffer, max_buffer, stream) != NULL)
+            fprintf(stdout,"%s",buffer);
+    pclose(stream);
+    }
+
+};
+
 cSystemArgument::~cSystemArgument()
 {
     if (m_OutputStream.length()>0)

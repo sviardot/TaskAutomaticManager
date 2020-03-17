@@ -4,6 +4,8 @@
 #include <exception>
 #include <string>
 
+#include "GlobalText.h"
+
 using namespace std;
 
 class EmptyCommandExcept : public exception
@@ -12,6 +14,7 @@ class EmptyCommandExcept : public exception
         int EmptyCommandExceptExcept ();
         int getErrorNumber() const throw();
         string getErrorMessage() const throw();
+        const char * what () const throw ();
 
     protected:
         static const int m_error_number = 255;
