@@ -9,9 +9,10 @@
 	<vector>
 	<string>
 
-1584433685 source:d:\dev\taskautomaticmanager\main.cpp
+1584514228 source:d:\dev\taskautomaticmanager\main.cpp
 	<iostream>
 	"csystemargument.h"
+	"DateUtility.h"
 
 1584431159 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
 	"csystemargument.h"
@@ -166,4 +167,11 @@
 
 1584433943 d:\dev\taskautomaticmanager\include\sqlite3.h
 	<stdarg.h>
+
+1584513935 source:d:\dev\taskautomaticmanager\src\dateutility.cpp
+	"DateUtility.h"
+
+1584514037 d:\dev\taskautomaticmanager\include\dateutility.h
+	<ctime>
+	<string>
 

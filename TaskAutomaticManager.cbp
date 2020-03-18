@@ -34,12 +34,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/DateUtility.h" />
 		<Unit filename="include/EmptyCommandExcept.h" />
 		<Unit filename="include/GlobalText.h" />
 		<Unit filename="include/csystemargument.h" />
 		<Unit filename="include/sqlite3.h" />
 		<Unit filename="include/sqlite3ext.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/DateUtility.cpp" />
 		<Unit filename="src/EmptyCommandExcept.cpp" />
 		<Unit filename="src/csystemargument.cpp" />
 		<Unit filename="src/shell.c">
