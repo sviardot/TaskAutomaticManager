@@ -2,6 +2,7 @@
 
 #include "csystemargument.h"
 #include "DateUtility.h"
+#include "debug.h"
 
 using namespace std;
 using namespace Utility;
@@ -9,6 +10,8 @@ using namespace Utility;
 int main()
 {
     DateUtility dateUtility;
+
+    log_err("test");
 
     cout << dateUtility.Now() << endl;
     cout << dateUtility.LogNow() << endl;

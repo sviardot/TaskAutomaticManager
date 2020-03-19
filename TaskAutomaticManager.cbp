@@ -38,6 +38,7 @@
 		<Unit filename="include/EmptyCommandExcept.h" />
 		<Unit filename="include/GlobalText.h" />
 		<Unit filename="include/csystemargument.h" />
+		<Unit filename="include/debug.h" />
 		<Unit filename="include/sqlite3.h" />
 		<Unit filename="include/sqlite3ext.h" />
 		<Unit filename="main.cpp" />
