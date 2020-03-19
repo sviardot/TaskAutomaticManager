@@ -9,10 +9,15 @@
 	<vector>
 	<string>
 
-1584514228 source:d:\dev\taskautomaticmanager\main.cpp
+1584637691 source:d:\dev\taskautomaticmanager\main.cpp
 	<iostream>
+	<signal.h>
+	<sstream>
+	<string>
+	<cstring>
 	"csystemargument.h"
 	"DateUtility.h"
+	"debug.h"
 
 1584431159 source:d:\dev\taskautomaticmanager\src\csystemargument.cpp
 	"csystemargument.h"
@@ -174,4 +179,9 @@
 1584518696 d:\dev\taskautomaticmanager\include\dateutility.h
 	<ctime>
 	<string>
+
+1583648960 d:\dev\taskautomaticmanager\include\debug.h
+	<stdio.h>
+	<errno.h>
+	<string.h>
 
