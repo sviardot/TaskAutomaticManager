@@ -43,5 +43,6 @@ int main()
     //cSystemArgument * CallSystem = new cSystemArgument("d:\\temp\\output","d:\\temp\\err","");
     cSystemArgument * CallSystem = new cSystemArgument("d:\\temp\\output","d:\\temp\\err","dir /s d:\\temp\\");
     CallSystem->Run();
+    fprintf(stdout,"test");
     return 0;
 }

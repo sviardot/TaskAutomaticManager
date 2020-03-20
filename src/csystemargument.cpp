@@ -36,6 +36,8 @@ cSystemArgument::cSystemArgument(string OutputStream,string ErrorStream,string C
     if (ErrorStream.length()>0)
         freopen(m_ErrorStream.c_str(),"w+",stderr);
 
+    fdOut = dup(STDOUT_FILENO); //save the stdout state
+    fdErr = dup(STDERR_FILENO);
 }
 
 void cSystemArgument::Run()
@@ -51,17 +53,24 @@ void cSystemArgument::Run()
             fprintf(stdout,"%s",buffer);
     pclose(stream);
     }
-
-};
-
-cSystemArgument::~cSystemArgument()
-{
     if (m_OutputStream.length()>0)
         fclose(stdout);
     if (m_ErrorStream.length()>0)
         fclose(stderr);
 
-    //dtor
+    freopen("NUL", "a", stdout);
+    setvbuf(stdout, buffer, _IOFBF, 1024);
+    freopen("NUL", "a", stdout); //redirect stdout to null again
+    dup2(fdOut, STDOUT_FILENO); //restore the previous state of stdout
+    setvbuf(stdout, NULL, _IONBF, 1024);//disable buffer to print to screen instantly
+    #ifdef WIN32
+    freopen("CONOUT$", "w", stdout);
+    #endif
+};
+
+cSystemArgument::~cSystemArgument()
+{
+//dtor
 }
 
 cSystemArgument::cSystemArgument(const cSystemArgument& other)

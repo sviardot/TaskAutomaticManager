@@ -64,6 +64,9 @@ class cSystemArgument
         string m_CommandName; //!< Member variable "m_CommandName"
         char * m_pid;
         vector<string> m_Arguments; //!< Member variable "m_Arguments"
+        int fdOut;
+        int fdErr;
+        char buffer[1024];
 };
 
 #endif // CSYSTEMARGUMENT_H
